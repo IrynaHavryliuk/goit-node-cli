@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { randomUUID } from 'crypto';
 
-const filePath = path.resolve('src', 'db', 'contacts.json');
+const filePath = path.resolve( 'db', 'contacts.json');
 
 async function readContacts() {
     try {
